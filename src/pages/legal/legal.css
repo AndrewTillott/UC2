@@ -1,0 +1,8 @@
+.all{
+     width: 90vw;
+     margin: auto;
+}
+
+ul li{
+    justify-content: start;
+}

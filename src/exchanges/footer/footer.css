@@ -1,0 +1,33 @@
+.footer{
+    background-color: #fbeeca;
+}
+
+.links{
+    list-style-type: none;
+}
+
+.list-series{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+   
+    justify-content: center;
+}
+
+
+.list-header{
+    margin: auto;
+   padding-left: 40px;
+}
+
+.copyright{
+    background-color: white;
+    margin: 30px;
+  padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 550px) {
+    .list-series{
+        flex-direction: column;
+    }
+}

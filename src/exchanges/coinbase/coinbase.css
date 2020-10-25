@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Oleo+Script&display=swap');
+
+.coinbase-feature{
+    background-color: #fbeeca;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    width: 100%;
+   
+}
+
+.coinbase-feature h3 {
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 1.6rem;
+ 
+}
+.coinbase-feature .funk-text {
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+
+
+.btc-image{
+    max-height: 50%;
+    max-width: 45%;
+}
+
+.coin-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+}
+
+.coin-text{
+    max-width: 45%;
+}
+
+
+@media only screen and (min-width: 700px) {
+    .coin-text{
+        max-width: 75%;
+ }
+}
+

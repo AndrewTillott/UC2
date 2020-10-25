@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Oleo+Script&display=swap');
+
+.outer-container{
+    background-color: #ffe01b;
+    height: 500px;
+    margin-top: 0px;
+    position: absolute;
+    z-index: -1;
+    min-width: 100vw;
+}
+
+.container{
+    max-height: 300px;
+    margin-top: 100px;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    background-color: #ffe01b;
+    font-family: Helvetica,Arial,Verdana,sans-serif;
+    flex-wrap: wrap;
+}
+
+.side-text{
+    max-width: 25%;
+    margin-left: 200px;
+    justify-content: center;
+    font-family: Georgia,Times,serif;
+}
+.side-text h1 {
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+.container.side-image{
+   max-width: 25%;
+   margin-right: 200px;
+    border-radius: 40%;
+}
+
+.blue-text{
+    color: #007c89;
+    cursor: pointer;
+}
+
+.blue-text:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.pink-text{
+    color: #df49a6;
+}
+
+.container .side-text p a{
+    color: #007c89;
+    cursor: pointer;
+}
+
+.container .side-text p a:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.container .side-image{
+    display: block;
+    margin: auto;
+    max-height: 400px;
+    max-width: 25%;
+}
+
+.button-change{
+    position: relative; 
+    right: 38px;
+    top: 13px;
+}
+
+@media only screen and (max-width: 591px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .side-text{
+        max-width: 75%;
+        min-width: 40%;
+        margin: auto;
+        justify-content: center;
+   
+    }
+   .container.side-image{
+       max-width: 75%;
+       min-width: 40%;
+       margin: auto;
+       border-radius: 40%;
+    }
+  }
