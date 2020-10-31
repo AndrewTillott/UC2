@@ -7,6 +7,7 @@ import NavBar from './components/navbar/NavBar.jsx';
 import Domains from './pages/domains/domains.jsx';
 import Privacy from './pages/legal/privacy.jsx';
 import Terms from './pages/legal/terms.jsx';
+import Earn from './pages/earn/earn.jsx';
 
 import { BrowserRouter, Route } from 'react-router-dom';
 
@@ -23,6 +24,7 @@ function App() {
                             <Route path='/domains' component={Domains} />
                             <Route path='/privacy' component={Privacy} />
                             <Route path='/terms' component={Terms} />
+                            <Route path='/earn' component={Earn} />
                     </div>
        </BrowserRouter>
        

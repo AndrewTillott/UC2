@@ -32,6 +32,7 @@ class Navbar extends Component {
                     <li><a href="/interest">Interest</a></li>
                     <li><a href="/exchanges">Exchanges</a></li>
                     <li><a href="/domains">Domains</a></li>
+                    <li><a href="/earn">Earn</a></li>
                   </ul>
                 </div>
               </nav>
